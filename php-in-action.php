@@ -9,7 +9,7 @@
 		<h1>
 			<?php
 			$welcome = 'Lets get started with PHP!';
-			echo welcome;
+			// echo welcome; 
 			?>
 		</h1>
 	</div> <!-- end of header -->
@@ -26,18 +26,18 @@
 		</p>
 		<p>Things you can do:
 			<?php 
-				$things = array("talk to databases", "send cookies", "evaluate form data", "build dynamic webpages");
+				$things = array("talk to databases,", " send cookies,", " evaluate form data,", " build dynamic webpages");
 				foreach ($things as $thing) 
 				{
-				 	echo '<li>$thing</li>';
+				 	echo $thing;
 				} 
 				unset($thing);
 			?>
 		</p>
-		<p>This jumbled sentence will change everytime you click submit</p>
+		<p>This jumbled sentence will change everytime you refresh the page</p>
 		<p>
 			<?php 
-				$words = array('the', 'quick', 'brown', 'fox', 'jumped', 'over', 'the', 'lazy', 'dog');
+				$words = array(' the', ' quick', ' brown', ' fox', ' jumped', ' over', ' the', ' lazy', ' dog');
 				shuffle($words);
 				foreach ($words as $word) 
 				{
