@@ -1,4 +1,4 @@
 PHP-in-Action
 =============
 
-Codecademy PHP lesson 1/13
+Codecademy PHP lesson 1-13
